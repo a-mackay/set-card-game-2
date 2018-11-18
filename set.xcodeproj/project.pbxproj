@@ -12,12 +12,12 @@
 		31906E032197C7C200EDB1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31906E012197C7C200EDB1AE /* Main.storyboard */; };
 		31906E052197C7C300EDB1AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31906E042197C7C300EDB1AE /* Assets.xcassets */; };
 		31906E082197C7C300EDB1AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31906E062197C7C300EDB1AE /* LaunchScreen.storyboard */; };
-		31906E102197C90C00EDB1AE /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31906E0F2197C90C00EDB1AE /* Set.swift */; };
+		31906E102197C90C00EDB1AE /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31906E0F2197C90C00EDB1AE /* SetGame.swift */; };
 		31906E122197CB7900EDB1AE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31906E112197CB7900EDB1AE /* Card.swift */; };
 		31906E1C2197D40600EDB1AE /* setTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31906E1B2197D40600EDB1AE /* setTests.swift */; };
 		31906E242197D45900EDB1AE /* CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31906E232197D45900EDB1AE /* CardTests.swift */; };
 		31906E252197D4D000EDB1AE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31906E112197CB7900EDB1AE /* Card.swift */; };
-		31906E262197DB7000EDB1AE /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31906E0F2197C90C00EDB1AE /* Set.swift */; };
+		31906E262197DB7000EDB1AE /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31906E0F2197C90C00EDB1AE /* SetGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 		31906E042197C7C300EDB1AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31906E072197C7C300EDB1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31906E092197C7C300EDB1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31906E0F2197C90C00EDB1AE /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		31906E0F2197C90C00EDB1AE /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
 		31906E112197CB7900EDB1AE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		31906E192197D40600EDB1AE /* setTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = setTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31906E1B2197D40600EDB1AE /* setTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setTests.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 				31906E042197C7C300EDB1AE /* Assets.xcassets */,
 				31906E062197C7C300EDB1AE /* LaunchScreen.storyboard */,
 				31906E092197C7C300EDB1AE /* Info.plist */,
-				31906E0F2197C90C00EDB1AE /* Set.swift */,
+				31906E0F2197C90C00EDB1AE /* SetGame.swift */,
 			);
 			path = set;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			files = (
 				31906E002197C7C200EDB1AE /* ViewController.swift in Sources */,
 				31906DFE2197C7C200EDB1AE /* AppDelegate.swift in Sources */,
-				31906E102197C90C00EDB1AE /* Set.swift in Sources */,
+				31906E102197C90C00EDB1AE /* SetGame.swift in Sources */,
 				31906E122197CB7900EDB1AE /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31906E262197DB7000EDB1AE /* Set.swift in Sources */,
+				31906E262197DB7000EDB1AE /* SetGame.swift in Sources */,
 				31906E1C2197D40600EDB1AE /* setTests.swift in Sources */,
 				31906E252197D4D000EDB1AE /* Card.swift in Sources */,
 				31906E242197D45900EDB1AE /* CardTests.swift in Sources */,
